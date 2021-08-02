@@ -1,0 +1,13 @@
+1-landing page inspiration دس عشان اعرف الاقي افكار ديزاين تعجبني
+2-normalize css دي عشان اخلي الكود بتاعي او الديزاين شكله طبيعي
+**npm install normalize.css**
+او اخده كود اونلاين واحطه في فولدر السي اس اس واستدعيه ف الاتش تي ام الاتش
+3-عشان اخد كوبي من الحاجه بعمل 
+shift+alt+pgdn السهم الي تحت
+4-عشان اعمل كومنت لحاجه 
+ctrl + /
+ctrl+backslash
+ctrl k c
+5-google fonts
+6-font awesome frpm google to get shapes 
+

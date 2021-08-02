@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+        <title>Special Design</title>
+        <link rel="stylesheet" href="node_modules/normalize.css/normalize.css" />
+        <link rel="stylesheet" href="css/master.css" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" />
+        <link rel="stylesheet" href="css/font-awesome.min.css" />
+
+    </body>
+    <body>
+
+        <!-- start setting box -->
+        <div class="settings-box">
+           <div class="toggle-settings">
+             <i class="fa fa-gear fa-spin"></i>
+           </div>
+            <div class="settings-container">
+               <div class="option-box">
+                   <h4>Colors</h4>
+                   <ul class="colors-list">
+                       <li class="active" data-color="#ff9800"></li>
+                       <li data-color="brown"></li>
+                       <li data-color="blueviolet"></li>
+                       <li data-color="darkgreen"></li>
+                       <li data-color="teal"></li>
+                   </ul>
+               </div>
+               <div class="option-box">
+                   <h4>Random background</h4>
+                   <div class="random-background">
+                    <span class="yes active" data-background="yes"> Yes</span>
+                    <span class="no" data-background="no" > No</span>
+                   </div>
+               </div>
+               <div class="option-box">
+                <h4>Show bullets</h4>
+                <div class="bullets-options">
+                 <span class="yes active" data-display="show"> Yes</span>
+                 <span class="no" data-display="hide" > No</span>
+                </div>
+            </div>
+            <button class="reset-options">Reset Options </button>
+            </div>
+        </div>
+        <!-- ending setting box -->
+
+        <!-- start nav bullets -->
+        <div class="nav-bullets">
+            <div class="bullet" data-section=".about-us">
+                <div class="tooltip">About Us</div>
+            </div>
+            <div class="bullet" data-section=".skills">
+                <div class="tooltip">Our Skills</div>
+            </div>
+            <div class="bullet"data-section=".gallary">
+                <div class="tooltip" >Our Galary</div>
+            </div>
+            <div class="bullet" data-section=".timeline">
+                <div class="tooltip">TimeLine</div>
+            </div>
+            <div class="bullet" data-section=".features">
+                <div class="tooltip">Our Feature</div>
+            </div>
+            <div class="bullet" data-section=".testimonials">
+                <div class="tooltip">Testimonials</div>
+            </div>
+        </div>
+        <!-- end nav bullets -->
+
+        <!-- Start landing page -->
+        <div class="landing-page">
+            <div class="over-lay"></div>
+            <div class="container">
+                <div class="header-area">
+                    <div class="logo">Special Design</div>
+                     <div class="links-container">
+                        <ul class="links">
+                            <li> <a href="#" data-section=".about-us"> About</a></li>
+                            <li><a href="#" data-section=".skills">Skills</a></li>
+                            <li><a href="#" data-section=".gallary">Gallary</a></li>
+                            <li><a href="#" data-section=".timeline">TimeLine</a></li>
+                            <li><a href="#" data-section=".features">Feature</a></li>
+                            <li><a href="#" data-section=".testimonials">Testimonials</a></li>
+                        </ul>
+                        <button class="toggle-menu"> <!-- الاسبان دي عدد الخطوط الي بتظهر ف شكل الكليك -->
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
+                     </div>
+                </div>
+            </div>  
+            <div class="introduction-text">
+                <h1> We Are <span>Creative</span> Team</h1>
+                <p>weclome to the templete design .this is a small design for beginner, simple and usefull</p>
+            </div>
+        </div> 
+        <!-- end landing page -->
+
+
+        <!-- Start about us -->
+        <div class="container">
+          <div class="about-us">
+            <div class="info-box">
+                <h2>About Us</h2>
+                <p>
+                    This course deals with all things server-side. We base the entire course around the NodeJS platform. We start with a brief overview of the Web protocols: HTTP and HTTPS. We examine NodeJS and NodeJS modules: Express for building web servers. On the database side, we review basic CRUD operations, NoSQL databases, in particular MongoDB and Mongoose for accessing MongoDB from NodeJS. We examine the REST concepts and building a RESTful API. We touch upon authentication and security. Finally we review backend as a service (BaaS) approaches, including mobile BaaS, both open-source and commercial BaaS services.
+                </p>
+            </div>
+           <div class="image-box">
+               <img src="imgs/about-us.jpg" alt="">
+           </div>
+        </div>
+    </div>
+        <!-- end about us -->
+
+
+        <!-- start our skills -->
+        <div class="skills">
+         <div class="container">
+                <h2>Our Skills </h2>
+                <div class="skill-box">
+                    <div class="skill-name">Html</div>
+                    <div class="skill-progress">
+                        <span data-prog="80%"></span>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-name">css3</div>
+                    <div class="skill-progress">
+                        <span data-prog="90%"></span>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-name">Mysql</div>
+                        <div class="skill-progress">
+                            <span data-prog="40%"></span>
+                        </div>
+                    </div>
+                <div class="skill-box">
+                    <div class="skill-name">javaScript</div>
+                        <div class="skill-progress">
+                            <span data-prog="90%"></span>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+            <!-- end our skills -->
+
+            <!-- start gallary -->
+
+            <div class="gallary">
+                <div class="container">
+                    <h2>Our gallary</h2>
+                    <div class="images-box">
+                        <img src="imgs/gallary/8940ffbbf1ad4ec5d1d26caa02faaa59.png" alt="Image One">
+                        <img src="imgs/gallary/124490095-vector-illustration-of-graphic-designer-team-computer-drawing-tools-and-accessories-design-studio-or.jpg" alt="Image two">
+                        <img src="imgs/gallary/blogging-concept-illustration_114360-1038.jpg" alt="Image three">
+                        <img src="imgs/gallary/file-searching-concept-illustration_23-2148277021.jpg" alt="Image four">
+                        <img src="imgs/gallary/file-searching-illustrated-concept-landing-page_52683-24619.jpg" alt="Image five">
+                        <img src="imgs/gallary/tumblr_pv3xmiVMe21qas1mto8_1280.jpg" alt="Image six">
+                        <img src="imgs/gallary/vector-blogging-online---modern-colorful-isometric-vector-illustration.jpg" alt="Image seven">
+                        <img src="imgs/gallary/vector-illustration-teamwork-brainstorming-searching-new-creative-ideas-138975536.jpg" alt="Image eight">
+                        <img src="imgs/gallary/work_3_llustrator_2x.jpg" alt="">
+                        <img src="imgs/gallary/workplace@2x.png " alt="">
+                    </div>
+                </div>
+            </div>
+            <!-- end gallary -->
+
+            <!-- start time line -->
+
+            <div class="timeline">
+                <div class="container">
+                    <div class="timeline-content">
+                        <div class="year">2018</div>
+
+                        <div class="left">
+                            <div class="content">
+                                <h3>Testing heading</h3>
+                                <p>
+                                    About the company in the past .. read the paragraph and 
+                                    you will know how this company sets..!
+                                    at the end ,thank you for give us your attention 
+                                </p>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="right">
+                             <div class="content">
+                                <h3>Testing heading</h3>
+                                <p >
+                                    About the company in the past .. read the paragraph and 
+                                    you will know how this company sets..!
+                                    at the end ,thank you for give us your attention 
+                                </p>
+                            </div>
+                            </div>
+
+                            <div class="clearfix"></div>
+                            <div class="year">2016</div>
+                            <div class="left">
+                                <div class="content">
+                                    <h3>Testing heading</h3>
+                                    <p>
+                                        About the company in the past .. read the paragraph and 
+                                        you will know how this company sets..!
+                                        at the end ,thank you for give us your attention 
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="right">
+                                <div class="content">
+                                    <h3>Testing heading</h3>
+                                    <p>
+                                        About the company in the past .. read the paragraph and 
+                                        you will know how this company sets..!
+                                        at the end ,thank you for give us your attention 
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- end time line -->
+
+            <!-- start feature -->
+            <div class="features">
+                <h2>Our Feature</h2>
+                <div class="container">
+
+                    <div class="feat-box">
+                        <img src="imgs/PNGs/graph-3.png" alt="">
+                        <h4>Development</h4>
+                        <p>
+                            development on the code to improve it 
+                        </p>
+                    </div>
+                    <div class="feat-box">
+                        <img src="imgs/PNGs/graph-2.png" alt="">
+                        <h4>Testing</h4>
+                        <p>
+                           rest the code form any bugs to improve 
+                        </p>
+                    </div>
+                    <div class="feat-box">
+                        <img src="imgs/PNGs/graph-18.png" alt="">
+                        <h4>Employing</h4>
+                        <p>
+                           employee it specialist to the code  
+                        </p>
+                    </div>
+                    <div class="feat-box">
+                        <img src="imgs/PNGs/graph-6.png" alt="">
+                        <h4>Buging</h4>
+                        <p>
+                            fix the bugs to get a clean code 
+                        </p>
+                    </div>
+                    <div class="feat-box">
+                        <img src="imgs/PNGs/graph-27.png" alt="">
+                        <h4>Design</h4>
+                        <p>
+                           design the front-end of the code for the user 
+                        </p>
+                    </div>
+                    <div class="feat-box">
+                        <img src="imgs/PNGs/graph-9.png" alt="">
+                        <h4>Analysis</h4>
+                        <p>
+                            do analysis to the problem to get a project
+                        </p>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+            <!-- end feature -->
+
+
+            <!-- start testimonials -->
+            <div class="testimonials">
+                <div class="container">
+                    <h2>Testimonials</h2>
+                    <div class="ts-box">
+                      <p>continue this project well done </p>
+                      <div class="person-info">
+                          <img src="imgs/profile/0f7ffa6439b324f96c78eee9b4c654e6.jpg" alt="">
+                          <h4>Eman</h4>
+                          <p>CEO At company</p>
+                      </div>
+                    </div>
+
+                    <div class="ts-box">
+                     <p>i'm happy to use this website</p>
+                     <div class="person-info">
+                        <img src="imgs/profile/174caaea2e0f5bfa309c8d10e3423955.jpg" alt="">
+                        <h4>Ahmed</h4>
+                        <p>CEO At company</p>
+                    </div>
+                    </div>
+
+                    <div class="ts-box">
+                       <p>it's amazing website .. nice</p>
+                       <div class="person-info">
+                        <img src="imgs/profile/555.jpg" alt="">
+                        <h4>Emo</h4>
+                        <p>CEO At company</p>
+                    </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>    
+            <!-- end testimonials -->
+            
+            <!-- start contact-us -->
+            <div class="contact">
+                <div class="overlay"></div>
+                <div class="container">
+                    <h2>Contact Us</h2>
+                    <form action="">
+                        <div class="left">
+                            <input type="text" placeholder="your name" name="username" >
+                            <input type="text" placeholder="your phone" name="phone" >
+                            <input type="email" placeholder="your email" name="email" >
+                            <input type="email" placeholder="subject" name="subject" >
+                        </div>
+                        <div class="right">
+                            <textarea name="message" placeholder="your message"></textarea>
+                            <input type="submit" value="Send" >
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!-- end contact-us -->
+            <div class="footer">
+                created by emo 
+            </div>
+        <script src="js/master.js"></script>
+    </body>
+</html>
